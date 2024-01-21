@@ -1,3 +1,5 @@
+/* add padding to sections */
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -176,7 +178,6 @@ template {
   --section-tagline-transform: uppercase;
   --section-title-margin: 0;
   --section-title-color: var(--color-black);
-
   --section-padding: 5rem 0;
   --section-header-padding: 0 0 3rem;
   --section-body-padding: 0 0 3rem;
@@ -245,7 +246,7 @@ a:active {
 
 .section-header {
   text-align: var(--section-header-align);
-  padding: var(--section-header-align);
+  padding: var(--section-header-padding);
 }
 
 .section-body {
